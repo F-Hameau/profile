@@ -8,8 +8,21 @@
   </head>
 
   <body>
+    <div id="sidebar">
+      <ul id="list-sidebar" class="bigger">
+        <li>
+          <a href="#summary"><i class="fas fa-info-circle" id="btn-sidebar"></i></a>
+        </li>
+        <li>
+          <a href="#favorite-series"><i class="fas fa-video" id="btn-sidebar"></i></a>
+        </li>
+        <li>
+          <a href="#help"><i class="fa fa-life-ring" id="btn-sidebar"></i></a>
+        </li>
+      </ul>
+    </div>
     <div class="container">
-      <div class="card text-center">
+      <div class="card text-center" id="summary">
         <img src="images/profile.jpg" alt="Profile_img" class="img-circle profile-img">
 
         <h1>François Hameau</h1>
@@ -29,8 +42,8 @@
         </ul>
       </div>
 
-      <div class="card">
-        <h2 class="text-center">My favorite series</h2>
+      <div class="card" id="favorite-series">
+        <h2 class="text-center bigger">My favorite series</h2>
         <table>
           <tr>
             <td><img src="images/breakingbad.jpg" alt="" class="movie-img"></td>
@@ -55,7 +68,7 @@
           </tr>
         </table>
       </div>
-      <div class="card text-center">
+      <div class="card text-center" id="help">
         <h2>About this page</h2>
         <p class="text-center">This page has been coded during the <a href="https://www.lewagon.com/program"><br>FullStack program @LeWagon.</a></p>
         <ul class="list-inline">
