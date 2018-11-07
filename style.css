@@ -1,0 +1,117 @@
+body {
+  color: rgb(50, 50, 50);
+  background-color: rgb(248, 248, 248);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(100, 100, 100, 0.8);
+}
+
+a:hover {
+  color: #0E79B2;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+h1 {
+  letter-spacing: -2px;
+  font-size: 25px;
+  color: #0E79B2;
+  font-weight: bold;
+}
+
+p {
+  font-weight: medium;
+  text-align: justify;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bigger {
+  font-size: 30px;
+}
+
+.movie-img {
+  height: 170px;
+  padding: 10px;
+}
+
+#movie {
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  padding: 10px;
+}
+
+.profile-img {
+  width: 180px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.btn-blue {
+    background-color: rgba(41, 121, 178, 0.7);
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+    background-color: rgba(41, 121, 178, 1);
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+}
